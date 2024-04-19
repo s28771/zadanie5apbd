@@ -5,7 +5,7 @@ using Tutorial4.Models;
 namespace Tutorial4.Controllers;
 
 [ApiController]
-[Route("api/visits")] // Consistent route naming convention
+[Route("api/visits")] 
 public class VisitController : ControllerBase
 {
     [HttpGet("animal/{animalId}")]
